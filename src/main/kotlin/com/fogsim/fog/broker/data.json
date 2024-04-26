@@ -1,0 +1,332 @@
+{
+  "type": "START",
+  "clusterList": [
+    {
+      "id": "C1",
+      "name": "C1",
+      "sensorList": [
+        {
+          "id": "C1Sensor1",
+          "name": "C1Sensor1",
+          "gatewayId": "C1G",
+          "characteristics": [
+            {
+              "cpu": 1000,
+              "ram": 100,
+              "bandwidth": 100,
+              "power": 1000
+            }
+          ],
+          "latency": 0,
+          "frequency": 7228,
+          "availability": 0.971898536264494,
+          "sensorType": 1,
+          "dataConfig": {
+            "SD": 1,
+            "SMax": 300,
+            "a1": 0.1,
+            "a2": 0.3,
+            "a3": 0.4,
+            "a4": 0.5,
+            "a5": 0.6,
+            "FAva": 2,
+            "FPar": 2,
+            "normalizedCount": 4
+          },
+          "dataProcessTime": 3000,
+          "animLeft": "41px"
+        },
+        {
+          "id": "C1Sensor2",
+          "name": "C1Sensor2",
+          "gatewayId": "C1G",
+          "characteristics": [
+            {
+              "cpu": 1000,
+              "ram": 100,
+              "bandwidth": 100,
+              "power": 1000
+            }
+          ],
+          "latency": 0,
+          "frequency": 6262,
+          "availability": 0.9701649970387799,
+          "sensorType": 9,
+          "dataConfig": {
+            "SD": 1,
+            "SMax": 300,
+            "a1": 0.1,
+            "a2": 0.3,
+            "a3": 0.4,
+            "a4": 0.5,
+            "a5": 0.6,
+            "FAva": 2,
+            "FPar": 2,
+            "normalizedCount": 4
+          },
+          "dataProcessTime": 3000,
+          "animLeft": "0px"
+        },
+        {
+          "id": "C1Sensor3",
+          "name": "C1Sensor3",
+          "gatewayId": "C1G",
+          "characteristics": [
+            {
+              "cpu": 1000,
+              "ram": 100,
+              "bandwidth": 100,
+              "power": 1000
+            }
+          ],
+          "latency": 0,
+          "frequency": 6344,
+          "availability": 0.9993372892272607,
+          "sensorType": 10,
+          "dataConfig": {
+            "SD": 1,
+            "SMax": 300,
+            "a1": 0.1,
+            "a2": 0.3,
+            "a3": 0.4,
+            "a4": 0.5,
+            "a5": 0.6,
+            "FAva": 2,
+            "FPar": 2,
+            "normalizedCount": 4
+          },
+          "dataProcessTime": 3000,
+          "animLeft": "-41px"
+        }
+      ],
+      "fogDeviceList": [
+        {
+          "id": "C1D1",
+          "name": "C1D1",
+          "deviceType": "laptop",
+          "storage": 10000,
+          "serverId": "C1S",
+          "type": 0,
+          "config": {
+            "db1": 0.1,
+            "db2": 0.1,
+            "db3": 0.1,
+            "db4": 0.1,
+            "db5": 0.1,
+            "currentAttendanceTime": 0,
+            "devicePresenceMiddle": 0,
+            "devicesPresenceVariance": 0,
+            "totalMips": 0,
+            "uploadBW": 100,
+            "downloadBW": 100,
+            "costPerBusyTime": 100,
+            "costPerIdleTime": 20,
+            "RPI": 2,
+            "flu": 0.4,
+            "tb1": 0.1,
+            "tb2": 0.2,
+            "tb3": 0.3,
+            "minDataSize": 200,
+            "minStoragePercent": 0.6,
+            "minFlue": 0.5,
+            "minQueue": 2,
+            "minExpireTime": 1,
+            "aEpsilon": 0.4,
+            "bEpsilon": 0.4,
+            "tEpsilon": 0.4,
+            "costPerMips": 10,
+            "costPerMem": 1000
+          },
+          "location": [
+            13,
+            2
+          ],
+          "availability": 0.8581894307274709,
+          "accessibility": 0.9582112316083392,
+          "clusterName": "C1",
+          "animLeft": 23,
+          "animTop": 69
+        },
+        {
+          "id": "C1D2",
+          "name": "C1D2",
+          "deviceType": "laptop",
+          "storage": 10000,
+          "serverId": "C1S",
+          "type": 2,
+          "config": {
+            "db1": 0.1,
+            "db2": 0.1,
+            "db3": 0.1,
+            "db4": 0.1,
+            "db5": 0.1,
+            "currentAttendanceTime": 0,
+            "devicePresenceMiddle": 0,
+            "devicesPresenceVariance": 0,
+            "totalMips": 0,
+            "uploadBW": 100,
+            "downloadBW": 100,
+            "costPerBusyTime": 100,
+            "costPerIdleTime": 20,
+            "RPI": 2,
+            "flu": 0.4,
+            "tb1": 0.1,
+            "tb2": 0.2,
+            "tb3": 0.3,
+            "minDataSize": 200,
+            "minStoragePercent": 0.6,
+            "minFlue": 0.5,
+            "minQueue": 2,
+            "minExpireTime": 1,
+            "aEpsilon": 0.4,
+            "bEpsilon": 0.4,
+            "tEpsilon": 0.4,
+            "costPerMips": 10,
+            "costPerMem": 1000
+          },
+          "location": [
+            55,
+            72
+          ],
+          "availability": 0.9172980418127828,
+          "accessibility": 0.9992117739392867,
+          "clusterName": "C1",
+          "animLeft": -23,
+          "animTop": 69
+        }
+      ],
+      "server": {
+        "id": "C1S",
+        "name": "C1S",
+        "delay": 0,
+        "deviceList": [
+          {
+            "id": "C1D1",
+            "name": "C1D1",
+            "deviceType": "laptop",
+            "storage": 10000,
+            "serverId": "C1S",
+            "type": 0,
+            "config": {
+              "db1": 0.1,
+              "db2": 0.1,
+              "db3": 0.1,
+              "db4": 0.1,
+              "db5": 0.1,
+              "currentAttendanceTime": 0,
+              "devicePresenceMiddle": 0,
+              "devicesPresenceVariance": 0,
+              "totalMips": 0,
+              "uploadBW": 100,
+              "downloadBW": 100,
+              "costPerBusyTime": 100,
+              "costPerIdleTime": 20,
+              "RPI": 2,
+              "flu": 0.4,
+              "tb1": 0.1,
+              "tb2": 0.2,
+              "tb3": 0.3,
+              "minDataSize": 200,
+              "minStoragePercent": 0.6,
+              "minFlue": 0.5,
+              "minQueue": 2,
+              "minExpireTime": 1,
+              "aEpsilon": 0.4,
+              "bEpsilon": 0.4,
+              "tEpsilon": 0.4,
+              "costPerMips": 10,
+              "costPerMem": 1000
+            },
+            "location": [
+              13,
+              2
+            ],
+            "availability": 0.8581894307274709,
+            "accessibility": 0.9582112316083392,
+            "clusterName": "C1",
+            "animLeft": 23,
+            "animTop": 69
+          },
+          {
+            "id": "C1D2",
+            "name": "C1D2",
+            "deviceType": "laptop",
+            "storage": 10000,
+            "serverId": "C1S",
+            "type": 2,
+            "config": {
+              "db1": 0.1,
+              "db2": 0.1,
+              "db3": 0.1,
+              "db4": 0.1,
+              "db5": 0.1,
+              "currentAttendanceTime": 0,
+              "devicePresenceMiddle": 0,
+              "devicesPresenceVariance": 0,
+              "totalMips": 0,
+              "uploadBW": 100,
+              "downloadBW": 100,
+              "costPerBusyTime": 100,
+              "costPerIdleTime": 20,
+              "RPI": 2,
+              "flu": 0.4,
+              "tb1": 0.1,
+              "tb2": 0.2,
+              "tb3": 0.3,
+              "minDataSize": 200,
+              "minStoragePercent": 0.6,
+              "minFlue": 0.5,
+              "minQueue": 2,
+              "minExpireTime": 1,
+              "aEpsilon": 0.4,
+              "bEpsilon": 0.4,
+              "tEpsilon": 0.4,
+              "costPerMips": 10,
+              "costPerMem": 1000
+            },
+            "location": [
+              55,
+              72
+            ],
+            "availability": 0.9172980418127828,
+            "accessibility": 0.9992117739392867,
+            "clusterName": "C1",
+            "animLeft": -23,
+            "animTop": 69
+          }
+        ],
+        "location": [
+          0,
+          0
+        ],
+        "clusterName": "C1"
+      },
+      "broker": {
+        "id": "C1B",
+        "name": "C1B",
+        "serverId": "C1S",
+        "delay": 0,
+        "validSize": [
+          10,
+          8000
+        ],
+        "validCpuLength": [
+          100,
+          4000
+        ],
+        "clusterName": "C1",
+        "animTop": "-105px"
+      },
+      "gateway": {
+        "id": "C1G",
+        "name": "C1G",
+        "brokerId": "C1B",
+        "delay": 0,
+        "clusterName": "C1"
+      }
+    }
+  ],
+  "dataPlacementType": "CUSTOM_CA_REPLICA",
+  "taskPlacementType": "CUSTOM_PERFORMANCE_AWARE",
+  "maxSimulationTime": 60
+}

@@ -1,0 +1,58 @@
+plugins {
+    id 'org.springframework.boot' version '2.6.1'
+    id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+    id 'org.jetbrains.kotlin.jvm' version '1.7.21'
+    id 'java'
+    id 'application'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+application {
+    mainClass = 'com.fogsim.fog.MainRunner'
+}
+
+jar {
+    duplicatesStrategy(DuplicatesStrategy.EXCLUDE)
+}
+
+repositories {
+    mavenCentral()
+    google()
+
+}
+
+dependencies {
+    implementation fileTree('libs')
+    implementation "org.jetbrains.kotlin:kotlin-stdlib"
+
+    implementation "io.reactivex.rxjava3:rxjava:3.1.2"
+    implementation "org.springframework.boot:spring-boot-starter-jdbc"
+    implementation "org.springframework.boot:spring-boot-starter-web"
+    implementation "org.springframework.boot:spring-boot-starter-websocket"
+//    implementation "com.fasterxml.jackson.module:jackson-module-kotlin"
+    implementation "org.jetbrains.kotlin:kotlin-reflect"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+    implementation 'com.google.code.gson:gson:2.10.1'
+    implementation 'org.webjars:webjars-locator-core'
+    implementation 'org.webjars:sockjs-client:1.0.2'
+    implementation 'org.webjars:stomp-websocket:2.3.3'
+    implementation 'org.webjars:bootstrap:3.3.7'
+    implementation 'org.webjars:jquery:3.1.1-1'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-reactor:1.6.4'
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4"
+    implementation "io.insert-koin:koin-core:3.3.2"
+    implementation 'org.java-websocket:Java-WebSocket:1.5.3'
+//    implementation "com.fasterxml.jackson.module:jackson-module-kotlin:2.13.+"
+//    developmentOnly 'org.springframework.boot:spring-boot-devtools'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+
+
+
+}
+
+test {
+    useJUnitPlatform()
+}
