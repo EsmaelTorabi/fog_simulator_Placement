@@ -4,7 +4,7 @@
 - Open Project 
 - open MainRunner 
 - Start Project
-- Source code of output results : [[result_code](https://github.com/EsmaelTorabi/fog_simulator_Placement/tree/main/result_code)](https://github.com/EsmaelTorabi/fog_simulator_Placement/tree/main/result_code)
+- Source code of output results : https://github.com/EsmaelTorabi/fog_simulator_Placement/tree/main/result_code
 - Output results chart:  https://github.com/EsmaelTorabi/fog_simulator_Placement/tree/main/result_picture 
 
 ![sequence_diagram](https://github.com/EsmaelTorabi/fog_simulator_Placement/assets/17027422/3c3e3610-2161-4b12-8682-7d3986b8ee0e)
