@@ -1,6 +1,6 @@
 **Init Dataplacement fogsimulator**  
 
-- Install  Intellij , JDK, Git 
+- Install  JetBrains.IntelliJ.IDEA.2023.2.0 , JDK, Git ,node-v14.21.3-x64
 - Open Project 
 - open MainRunner 
 - Start Project
